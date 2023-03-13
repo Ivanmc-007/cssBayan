@@ -24,6 +24,15 @@
 
 .card__text {
   text-align: center;
+  cursor: pointer;
+  display: block;
+}
+
+.card__check {
+  width: 0;
+  height: 0;
+  position: absolute;
+  appearance: none;
 }
 
 .card__check:checked + .card__img {
