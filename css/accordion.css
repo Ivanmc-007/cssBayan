@@ -10,12 +10,8 @@
   font-family: Arial, sans-serif;
 }
 
-.line {
-  height: 2px;
-  background-color: #bbb0d8;
-}
-
 .card {
+  border-top: 2px solid red;
   padding: 10px 0 20px 0;
 }
 
@@ -23,9 +19,14 @@
   text-align: center;
 }
 
+.card__check:checked + .card__img {
+  display: block;
+}
+
 .card__img {
   text-align: center;
   height: 250px;
+  display: none;
 }
 
 .card__img img {
