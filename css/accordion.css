@@ -10,6 +10,13 @@
   font-family: Arial, sans-serif;
 }
 
+.cards {
+  color: blue;
+}
+.cards:hover {
+  color: #222222;
+}
+
 .card {
   border-top: 2px solid red;
   padding: 10px 0 20px 0;
