@@ -110,7 +110,7 @@ h2 {
 
 }
 
-@media (max-width: 412px) {
+@media (max-width: 420px) {
   .container {
     width: 100%;
   }
@@ -121,6 +121,25 @@ h2 {
 
   .card {
     padding: 2px 0 5px 0;
+  }
+
+  .card__title {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .cards:hover .card__title:before {
+    width: 4px;
+    height: 16px;
+    right: 10px;
+    margin: -6px 0 0 0;
+  }
+
+  .cards:hover .card__title:after {
+    width: 16px;
+    height: 4px;
+    right: 10px;
+    margin: 0 -6px;
   }
 
   .card__img {
